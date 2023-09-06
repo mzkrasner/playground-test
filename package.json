@@ -3,12 +3,6 @@
   "version": "0.1.11-alpha.8",
   "private": true,
   "dependencies": {
-    "graphiql": "^2.2.0",
-    "graphql": "^16.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "@ceramicnetwork/blockchain-utils-linking": "2.11.0",
     "@ceramicnetwork/cli": "2.38.0",
     "@ceramicnetwork/common": "2.33.0",
     "@ceramicnetwork/http-client": "2.30.0",
@@ -16,6 +10,12 @@
     "@composedb/client": "0.5.0",
     "@composedb/devtools": "0.5.0",
     "@composedb/devtools-node": "0.5.0",
+    "graphiql": "^2.2.0",
+    "graphql": "^16.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@ceramicnetwork/blockchain-utils-linking": "2.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,8 +34,9 @@
     ]
   },
   "devDependencies": {
+    "@composedb/cli": "^0.5.0",
+    "@composedb/types": "^0.3.0",
     "@types/react-dom": "^18.2.7",
-    "worker-loader": "^2.0.0",
-    "@composedb/types": "^0.3.0"
+    "worker-loader": "^2.0.0"
   }
 }
