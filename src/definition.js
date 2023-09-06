@@ -52,13 +52,13 @@ export const definition = {
             property: "profileId",
           },
         },
-        comments: {
+        responses: {
           type: "view",
           viewType: "relation",
           relation: {
             source: "queryConnection",
             model:
-              "kjzl6hvfrbw6cags7lvf5ajsgdfqwnnhoyp5fr3fhmitskk0ksydeaspzxckpub",
+              "kjzl6hvfrbw6cb3x190263pxlza37ls1gxizt1ea21gtr9xwp7qln05elotk0h8",
             property: "postId",
           },
         },
